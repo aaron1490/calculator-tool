@@ -58,4 +58,4 @@ MIT License.
 
 ## Acknowledgments
 
-I want to take the opportunity to acknowledge the online content that [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) has put out, they provide plenty of helpful videos relating to the subject of learning front end development.
+I want to take the opportunity to acknowledge the online content that [Web Dev Simplified: Youtube Channel](https://www.youtube.com/@WebDevSimplified) has put out, they provide plenty of helpful videos relating to the subject of learning front end development.
