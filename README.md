@@ -28,6 +28,14 @@ The project structure is organized as follows:
 
 ![Project Demo](./assets/images/projectDemo.JPG)
 
+## Instructions for use
+
+To use the calculator, please open the deployed page [from this link](https://aaron1490.github.io/calculator-tool/)
+
+## Installation
+
+To code this yourself, feel free to clone the repository onto your local system
+
 ## Contact
 
 * [Click here to email me!](mailto:aaronarmstrong1490@gmail.com)
@@ -36,7 +44,7 @@ The project structure is organized as follows:
 ## Links
 
 * [Link to the code repository](https://github.com/aaron1490/calculator-tool)
-* [Link to the deployed page]()
+* [Link to the deployed page](https://aaron1490.github.io/calculator-tool/)
 
 ## Additional Resources
 
