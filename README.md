@@ -8,7 +8,7 @@ Welcome to the respository for a personal project of mine, in this project, I've
 
 ### The Why?
 
-    The reason for doing this is to supplement my learning on the EdX Front End Dev bootcamp, and to develop upon my current learnings.
+The reason for doing this is to supplement my learning on the EdX Front End Dev bootcamp, and to develop upon my current learnings.
 
 ## Technologies Used
 
