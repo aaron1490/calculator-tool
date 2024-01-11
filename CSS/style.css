@@ -1,27 +1,33 @@
+/* selector for the font and weighting for the whole page */
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
 }
 
+/* selector for the whole page background */
 body {
     padding: 0;
     margin: 0;
     background: linear-gradient(to right, #17662a, #afd1bd);
 }
 
+/* Added border radius curve to top of caluclator */
 body div {
     border-radius: 15px 15px 0px 0px;
 }
 
+/* Added border radius curve to bottom left */
 #br1 {
     border-radius: 0px 0px 0px 15px;
 }
 
+/* Added border radius curve to bottom right of caluclator */
 #br2 {
     border-radius: 0px 0px 15px 0px;
 }
 
+/* calculator grid */
 .calculator-grid {
     display: grid;
     justify-content: center;
@@ -31,6 +37,7 @@ body div {
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
+/* buttons on calculator grid */
 .calculator-grid > button {
     cursor: pointer;
     font-size: 2rem;
@@ -39,14 +46,17 @@ body div {
     background-color: rgba(255, 255, 255, .75);
 }
 
+/* hover function for calculator buttons */
 .calculator-grid > button:hover {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
+/* grid span function for AC button and "=" button so that they span across two columns in the calculator */
 .span-two {
     grid-column: span 2;
 }
 
+/* selector ensuring that the calculator displays correctly at the top of the calculator */
 .output {
     grid-column: 1 / -1;
     background-color: rgba(0, 0, 0, .75);
@@ -59,11 +69,14 @@ body div {
     word-break: break-all;
 }
 
+/* selector for the display function on the top of the calculator outputting from the previous sum */
 .output .previous-operand {
     color: rgba(255, 255, 255, 0.75);
     font-size: 1.5rem;
 }
 
+
+/* selector for the display function on the top of the calculator */
 .output .current-operand {
     color: white;
     font-size: 2.5rem;
