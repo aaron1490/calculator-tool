@@ -7,7 +7,19 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    background: linear-gradient(to right, #17662a, #afd1bd);
+}
+
+body div {
+    border-radius: 15px 15px 0px 0px;
+}
+
+#br1 {
+    border-radius: 0px 0px 0px 15px;
+}
+
+#br2 {
+    border-radius: 0px 0px 15px 0px;
 }
 
 .calculator-grid {
